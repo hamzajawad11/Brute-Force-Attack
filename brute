@@ -1,0 +1,72 @@
+# BRUTE FORCE ATTACK
+
+**Definition:** A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys.
+
+**Example:** Trying out every combination on a keypad to a locked room, hoping that eventually you’ll find the right one.
+
+## CAUSES OF BRUTE FORCE ATTACK
+
+### Weak Passwords:
+
+- Use of easily guessable passwords.
+- Lack of complexity or randomness in password creation.
+
+### Predictable Passwords:
+
+- Reliance on common words, phrases, or patterns.
+- Absence of uniqueness in password choices.
+
+### Lack of Security Measures:
+
+- **No Account Lockout Policies:**
+  - Failure to limit login attempts.
+  - Allows attackers to repeatedly try different passwords without consequences.
+- **No Multifactor Authentication (MFA):**
+  - Missing an additional layer of security beyond passwords.
+  - Increases vulnerability to unauthorized access.
+
+## TYPES OF BRUTE FORCE ATTACKS
+
+### Simple Brute Force Attacks:
+
+- The attacker tries to logically guess a password by using common passwords or personal information.
+
+### Dictionary Attacks:
+
+- The attacker tests common words, phrases, or passwords in exhaustive combinations.
+
+### Hybrid Brute Force Attacks:
+
+- The attacker combines techniques from dictionary attacks and simple brute force attacks to test combinations involving both common words and random characters.
+
+### Reverse Brute Force Attacks:
+
+- The attacker starts with a known password and tests it against a list of possible usernames.
+
+### Credential Stuffing:
+
+- The attacker uses credentials that have already been stolen from another source and tests them against multiple sites.
+
+## TOOLS USED TO EXPLOIT VULNERABILITY
+
+- **Aircrack-ng:**
+  - A suite of tools that assess Wi-Fi network security and can crack WEP and WPA passwords using brute force methods.
+  
+- **Hydra:**
+  - A fast and flexible tool that can launch brute force attacks on various network services, such as FTP, SSH, Telnet, HTTP, and more.
+
+- **John the Ripper:**
+  - A powerful tool that can crack encrypted passwords using brute force, dictionary, and rainbow table methods.
+
+## HOW TO PREVENT BRUTE FORCE ATTACKS
+
+- **Use Strong Passwords:**
+  - Choose passwords that are long, complex, and unique.
+  - Avoid using common words, phrases, or personal information.
+  - Use a combination of uppercase and lowercase letters, numbers, and symbols.
+
+- **Use Multifactor Authentication:**
+  - Add an extra layer of security by requiring a second factor of verification, such as a code sent to your phone or email, a biometric scan, or a physical token.
+
+- **Use a Password Manager:**
+  - Store and manage your passwords securely in a password manager that can generate and autofill strong passwords for you.
